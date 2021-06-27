@@ -64,5 +64,48 @@ width: 100%;
 .banner img{
 width:100%;
 }
+.services{}
+.title{}
+.title h4{
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 35;
+    margin: 20px 0;
+}
+.services-box{
+    overflow: hidden;
+}
+.single-service{
+    background-color: white;
+    padding: 20px;
+    float: left;
+    width: 313px;
+    margin-right: 20px;
+}
+.single-service h4{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 25px;
+}
+.single-service p{
+    color: black;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.single-service img{
+    width: 100%;
+}
+.single-service a{
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: navajowhite;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
 
 
