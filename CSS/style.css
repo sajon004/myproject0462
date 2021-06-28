@@ -51,12 +51,16 @@ body{
 display: inline-block;
 
 }
-.menu ul li a, .about-left a{
+.menu ul li a{
     text-decoration:none;
     color:rgb(15, 215, 230);
     font-size: 25px;
     padding:10px 15px;
     display: block;
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: white;
 }
 .banner{
 width: 100%;
@@ -64,27 +68,34 @@ width: 100%;
 .banner img{
 width:100%;
 }
-.services{}
+.services{
+    margin-bottom: 50px;
+}
 .title{
     text-align: center;
     text-transform: capitalize;
     font-size: 50px;
+    background-color: teal;
 }
 .title h4{
     text-align: center;
     text-transform:capitalize;
     font-size: 35;
     margin: 20px 0;
+    color: white;
 }
 .services-box{
     overflow: hidden;
 }
 .single-service{
-    background-color: white;
+    background-color:rgb(38, 151, 62);
     padding: 20px;
     float: left;
-    width: 313px;
+    width: 320px;
     margin-right: 20px;
+}
+.single-service:last-child{
+    margin-right:0;
 }
 .single-service h4{
     text-align: center;
@@ -100,16 +111,25 @@ width:100%;
 .single-service img{
     width: 100%;
 }
-.single-service a{
+.single-service a, .about-left a{
     display: inline-block;
     text-transform: capitalize;
-    text-decoration: navajowhite;
-    color: black;
-    background-color:teal;
-    padding: 10px 20px;
+    text-decoration: none;
+    color: teal;
+    background-color:white;
+    padding: 5px 20px;
     font-weight: bold;
     font-style: italic;
     font-size: 17px;
+}
+.single-service a:hover{
+    background-color: black;
+    color: #fff;
+}
+.hr{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .about{
     overflow: hidden;
@@ -129,6 +149,10 @@ width:100%;
     margin-bottom: 10 px;
     font-size: 16px;
 }
+.about-left a:hover{
+    background-color: black;
+    color: #fff;
+}
 .about-menu{
     float: right;
     width: 270;
@@ -140,6 +164,9 @@ width:100%;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 5px;
+}
+.about-menu ul li:last-child{
+    border-bottom: 0;
 }
 .about-menu ul li a{
     color: black;
