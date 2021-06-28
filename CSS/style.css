@@ -51,7 +51,7 @@ body{
 display: inline-block;
 
 }
-.menu ul li a{
+.menu ul li a, .about-left a{
     text-decoration:none;
     color:rgb(15, 215, 230);
     font-size: 25px;
@@ -111,9 +111,53 @@ width:100%;
     font-style: italic;
     font-size: 17px;
 }
-.hr{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.about{
+    overflow: hidden;
+    padding: 30px 0;
 }
+.about-left{
+    float:left ;
+    width: 700px;
+    margin-right: 30px;
+}
+.about-left h4, .about-menu h4{
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.about-left p{
+    margin-bottom: 10 px;
+    font-size: 16px;
+}
+.about-menu{
+    float: right;
+    width: 270;
+}
+.about-menu ul{
+    list-style: none;
+}
+.about-menu ul li{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.about-menu ul li a{
+    color: black;
+    text-decoration: navajowhite;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    background-color: teal;
+    padding: 20px 0;
+}
+.footer p{
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+
 
 
