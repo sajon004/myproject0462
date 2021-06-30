@@ -33,8 +33,9 @@ body{
     background-color:white;
     width: 100%;
     font-size: 40px;
-    color: rgb(97, 155, 89);
+    color: rgb(64, 224, 176);
 }
+
 .menu{
     float:right;
     width:700px;
@@ -59,7 +60,7 @@ display: inline-block;
     display: block;
 }
 .menu ul li a:hover{
-    background-color: black;
+    background-color:  rgb(64, 224, 176);
     color: white;
 }
 .banner{
@@ -69,39 +70,54 @@ width: 100%;
 width:100%;
 }
 .services{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .title{
     text-align: center;
     text-transform: capitalize;
     font-size: 50px;
-    background-color: teal;
+    background-color:white;
 }
 .title h4{
     text-align: center;
     text-transform:capitalize;
     font-size: 35;
     margin: 20px 0;
-    color: white;
+    color: rgb(64, 224, 176);
+}
+.title h4:hover{
+    background-color: rgb(64, 224, 176);
+    color:white;
 }
 .services-box{
     overflow: hidden;
 }
 .single-service{
-    background-color:rgb(38, 151, 62);
+    background-color: rgb(64, 224, 176);
     padding: 20px;
     float: left;
     width: 320px;
     margin-right: 20px;
+    margin-bottom: 20px;
+}
+.single-service:hover{
+    background-color: white;
+    color:  rgb(64, 224, 176);
 }
 .single-service:last-child{
+    margin-right: 0;
+}
+.service-page .single-service:nth-child(3), .service-page .single-service:nth-child(6){
     margin-right:0;
 }
 .single-service h4{
     text-align: center;
     font-size: 30px;
-    color: black;
+    color:black;
     margin-bottom: 25px;
+}
+.single-service h4:hover{
+    color:  rgb(64, 224, 176);
 }
 .single-service p{
     color: black;
@@ -123,14 +139,10 @@ width:100%;
     font-size: 17px;
 }
 .single-service a:hover{
-    background-color: black;
+    background-color: rgb(64, 224, 176);
     color: #fff;
 }
-.hr{
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 .about{
     overflow: hidden;
     padding: 30px 0;
@@ -144,13 +156,17 @@ width:100%;
     text-transform: capitalize;
     font-size: 26px;
     margin-bottom: 10px;
+    font-family: fantasy;
 }
 .about-left p{
     margin-bottom: 10 px;
     font-size: 16px;
 }
+.about-left h4:hover{
+    color:  rgb(64, 224, 176);
+}
 .about-left a:hover{
-    background-color: black;
+    background-color:  rgb(64, 224, 176);
     color: #fff;
 }
 .about-menu{
@@ -173,18 +189,84 @@ width:100%;
     text-decoration: navajowhite;
     font-weight: bold;
 }
+.ifarme{
+    padding: 0%;
+    margin-bottom: 0px;
+}
 .footer{
     text-align: center;
-    background-color: teal;
+    background-color: rgb(64, 224, 176);
     padding: 20px 0;
 }
 .footer p{
     font-weight: bold;
-    color: white;
+    color:black;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.page-banner{
+  background-image: url('../image/about.jpg');
+  padding: 80px 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.page-banner h4{
+    color:black;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    transition: linear;
+}
+.contact{
+    padding: 15px 15px;
+    background-color:rgb(64, 224, 176);
+}
+.contact p{
+    color:black;
+    text-transform: capitalize;
+    font-size: 30PX;
+    font: bold;
+    font-family: fantasy;
 }
 
+.centerdiv{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 224, 176);
+}
+.centerdiv a{
+    height: 70px;
+    width: 70px;
+    background-color: #f5f6fa;
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px;
+    line-height: 90px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.centerdiv a i{
+    font-size: 25px;
+    transition: 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-youtube{
+        color: #e84118;
+}
+.fa-linkedin{
+    color: #0097e6;
+} 
+.fa-twitter{
+    color: #0097e6;
+}      
 
 
 
