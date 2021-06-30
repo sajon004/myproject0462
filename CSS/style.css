@@ -34,6 +34,7 @@ body{
     width: 100%;
     font-size: 40px;
     color: rgb(64, 224, 176);
+    text-transform: capitalize;
 }
 
 .menu{
@@ -58,6 +59,7 @@ display: inline-block;
     font-size: 25px;
     padding:10px 15px;
     display: block;
+    font-family: fantasy;
 }
 .menu ul li a:hover{
     background-color:  rgb(64, 224, 176);
@@ -83,11 +85,12 @@ width:100%;
     text-transform:capitalize;
     font-size: 35;
     margin: 20px 0;
-    color: rgb(64, 224, 176);
+    color: black;
+    font-family: fantasy;
 }
 .title h4:hover{
-    background-color: rgb(64, 224, 176);
-    color:white;
+    background-color:#fff;
+    color:rgb(64, 224, 176);
 }
 .services-box{
     overflow: hidden;
@@ -115,6 +118,7 @@ width:100%;
     font-size: 30px;
     color:black;
     margin-bottom: 25px;
+    font-family: fantasy;
 }
 .single-service h4:hover{
     color:  rgb(64, 224, 176);
@@ -165,6 +169,9 @@ width:100%;
 .about-left h4:hover{
     color:  rgb(64, 224, 176);
 }
+.about-menu h4:hover{
+    color:  rgb(64, 224, 176);
+}
 .about-left a:hover{
     background-color:  rgb(64, 224, 176);
     color: #fff;
@@ -205,6 +212,9 @@ width:100%;
     font-size: 20px;
     font-family: fantasy;
 }
+.footer p:hover{
+    color: white;
+}
 .page-banner{
   background-image: url('../image/about.jpg');
   padding: 80px 0;
@@ -217,7 +227,12 @@ width:100%;
     text-transform: capitalize;
     font-size: 30px;
     text-align: center;
-    transition: linear;
+}
+.page-banner h4:hover{
+    color: ;
+    font-size:40px;
+    font-weight: bold;
+    font-family: fantasy;
 }
 .contact{
     padding: 15px 15px;
@@ -232,7 +247,7 @@ width:100%;
 }
 
 .centerdiv{
-    height: 25vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
