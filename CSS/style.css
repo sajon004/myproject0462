@@ -194,7 +194,7 @@ width:100%;
 }
 .about-left a:hover{
     background-color:  thistle;
-    color:bisque;
+    color:black;
 }
 .about-menu{
     float: right;
@@ -311,9 +311,8 @@ overflow: hidden;
 
 .single-gallery{
 float: left;
-width: 230px;
-margin-right: 26px;
-margin-bottom: 20px;
+width: 250px;
+
 }
 .single-gallery:nth-child(4),
 .single-gallery:nth-child(8),
