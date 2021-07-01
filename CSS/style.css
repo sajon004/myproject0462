@@ -146,6 +146,22 @@ width:100%;
     background-color: rgb(64, 224, 176);
     color: #fff;
 }
+.gallery a{
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:black;
+    background-color:white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.gallery a:hover{
+    background-color: rgb(64, 224, 176);
+    color: #fff;
+}
 
 .about{
     overflow: hidden;
@@ -281,7 +297,83 @@ a:hover i{
 } 
 .fa-twitter{
     color: #0097e6;
-}      
+}   
+.gallery{
+
+}
+.gallery-box{
+overflow: hidden;
+}
+
+.single-gallery{
+float: left;
+width: 230px;
+margin-right: 26px;
+margin-bottom: 20px;
+}
+.single-gallery:nth-child(4),
+.single-gallery:nth-child(8),
+.single-gallery:nth-child(12){
+    margin-right: 0;
+}
+.single-gallery iframe{
+width: 100%;
+}
+
+.contact{
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 0;
+}
+.contact-form{
+    float: left;
+    width: 650px;
+    margin-right: 40px;
+}
+.contact-form h4, .contact-address h4{
+text-transform:capitalize ;
+font-size: 30px;
+margin-bottom: 25px;
+}
+.contact-address{
+    float: right;
+    width: 320;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom:10px ;
+    border: 1px solid black;
+}
+.contact-form input[type="submit"] {
+    width: auto;
+    padding: 10px 30px;
+    background-color: rgb(64, 224, 176) ;
+    border: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contact-address{}
+.contact-address ul{
+list-style: none;
+}
+.contact-address ul li{
+margin-bottom: 5px;
+padding-bottom: 5px;
+border-bottom: 1px solid black;
+font-size: 25px;
+}
+.contact-address ul li:last-child{
+    border-bottom: 0;
+}
+.contact-address ul li a{
+color: black;
+text-decoration: none;
+}
+
+
 
 
 
