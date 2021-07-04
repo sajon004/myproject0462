@@ -235,25 +235,89 @@ width:100%;
 .footer p:hover{
     color: white;
 }
-.page-banner{
+.aboutpage-banner{
   background-image: url('../image/about.jpg');
   padding: 80px 0;
   background-size: cover;
   background-position: center;
   text-align: center;
 }
-.page-banner h4{
+.aboutpage-banner h4{
     color:black;
     text-transform: capitalize;
     font-size: 30px;
     text-align: center;
 }
-.page-banner h4:hover{
+.aboutpage-banner h4:hover{
     color: ;
     font-size:40px;
     font-weight: bold;
     font-family: fantasy;
 }
+.servicepage-banner{
+    background-image: url('../image/service.jpg');
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  .servicepage-banner h4{
+      color:black;
+      text-transform: capitalize;
+      font-size: 30px;
+      text-align: center;
+  }
+  .servicepage-banner h4:hover{
+      color: ;
+      font-size:40px;
+      font-weight: bold;
+      font-family: fantasy;
+  }
+  .contactpage-banner{
+    background-image: url('../image/contact.jpg');
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  .contactpage-banner h4{
+      color:black;
+      text-transform: capitalize;
+      font-size: 30px;
+      text-align: center;
+  }
+  .contactpage-banner h4:hover{
+      color: ;
+      font-size:40px;
+      font-weight: bold;
+      font-family: fantasy;
+  }
+  .consultantpage-banner {
+  width: 100%;
+  }
+  .consultantpage-banner img{
+      width: 1000px;
+      height: 400px;
+  }
+.gallerypage-banner {
+    background-image: url('../image/gallery.jpg');
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  .gallerypage-banner h4{
+      color:black;
+      text-transform: capitalize;
+      font-size: 30px;
+      text-align: center;
+  }
+  .gallerypage-banner h4:hover{
+      color: ;
+      font-size:40px;
+      font-weight: bold;
+      font-family: fantasy;
+  }
 .contact{
     padding: 15px 15px;
     background-color:rgb(64, 224, 176);
@@ -379,7 +443,6 @@ font-size: 20px;
 color: black;
 text-decoration: none;
 }
-
 
 
 
