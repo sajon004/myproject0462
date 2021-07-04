@@ -237,7 +237,7 @@ width:100%;
 }
 .aboutpage-banner{
   background-image: url('../image/about.jpg');
-  padding: 80px 0;
+  padding: 200px 0;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -256,7 +256,7 @@ width:100%;
 }
 .servicepage-banner{
     background-image: url('../image/service.jpg');
-    padding: 80px 0;
+    padding: 200px 0;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -275,7 +275,7 @@ width:100%;
   }
   .contactpage-banner{
     background-image: url('../image/contact.jpg');
-    padding: 80px 0;
+    padding: 200px 0;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -301,7 +301,7 @@ width:100%;
   }
 .gallerypage-banner {
     background-image: url('../image/gallery.jpg');
-    padding: 80px 0;
+    padding: 200px 0;
     background-size: cover;
     background-position: center;
     text-align: center;
