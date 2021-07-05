@@ -468,13 +468,14 @@ font-size: 20px;
 color: black;
 text-decoration: none;
 }
-.consultant h4{
+.consultant h4, .doctorsincall h4{
     text-align: center;
     font-weight: bold;
     color: black;
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 .consultant-form{
     float: left;
@@ -514,6 +515,32 @@ text-decoration: none;
     font-size: 30px;
     padding-bottom: 10px;
 }
+.doctorsincall{
+    overflow: hidden;
+}
+.doctorsincall img{
+    width:500px;
+    height: 400px;
+}
+.doctorsincall p{
+    padding-top: 30pxpx;
+    float: right;
+    width: 450px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-justify:auto;
+}
+.doctorsincall a{
+    text-decoration: none;
+    float: left;
+    padding:20px 80px 20px 80px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(64, 224, 176);
+}
+
 
 
 
