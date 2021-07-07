@@ -14,7 +14,7 @@ body{
 .header{
     overflow: hidden;
     background-color:white;
-    padding:20 0;
+    padding:20px 0;
 
 }
 .logo{
@@ -36,7 +36,7 @@ body{
     color: rgb(64, 224, 176);
     text-transform: capitalize;
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .menu{
@@ -67,7 +67,7 @@ margin-left: 15px;
 }
 .menu ul li a:hover{
     background-color:thistle;
-    color:solid black;
+    color: black;
     animation-timing-function: linear;
     cursor: pointer;
 }
@@ -113,7 +113,7 @@ width:100%;
 .title h4{
     text-align: center;
     text-transform:capitalize;
-    font-size: 35;
+    font-size: 35px;
     margin: 20px 0;
     color: black;
     font-family: fantasy;
@@ -190,7 +190,7 @@ width:100%;
 }
 .gallery a:hover{
     background-color: thistle;
-    color:solid black;
+    color: black;
 }
 
 .about{
@@ -199,17 +199,17 @@ width:100%;
 }
 .about-left{
     float:left ;
-    width: 700px;
+    width:600px;
     margin-right: 30px;
 }
 .about-left h4, .about-menu h4{
     text-transform: capitalize;
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-family: fantasy;
 }
 .about-left p{
-    margin-bottom: 10 px;
+    margin-bottom: 10px;
     font-size: 16px;
 }
 .about-left h4:hover{
@@ -224,7 +224,7 @@ width:100%;
 }
 .about-menu{
     float: right;
-    width: 270;
+    width: 300px;
 }
 .about-menu ul{
     list-style: none;
@@ -271,14 +271,8 @@ width:100%;
 .aboutpage-banner h4{
     color:black;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-}
-.aboutpage-banner h4:hover{
-    color: ;
-    font-size:40px;
-    font-weight: bold;
-    font-family: fantasy;
 }
 .servicepage-banner{
     background-image: url('../image/service.jpg');
@@ -290,14 +284,8 @@ width:100%;
   .servicepage-banner h4{
       color:black;
       text-transform: capitalize;
-      font-size: 30px;
+      font-size: 40px;
       text-align: center;
-  }
-  .servicepage-banner h4:hover{
-      color: ;
-      font-size:40px;
-      font-weight: bold;
-      font-family: fantasy;
   }
   .contactpage-banner{
     background-image: url('../image/contact.jpg');
@@ -309,14 +297,8 @@ width:100%;
   .contactpage-banner h4{
       color:black;
       text-transform: capitalize;
-      font-size: 30px;
+      font-size: 40px;
       text-align: center;
-  }
-  .contactpage-banner h4:hover{
-      color: ;
-      font-size:40px;
-      font-weight: bold;
-      font-family: fantasy;
   }
   .consultantpage-banner {
   width: 100%;
@@ -335,14 +317,9 @@ width:100%;
   .gallerypage-banner h4{
       color:black;
       text-transform: capitalize;
-      font-size: 30px;
+      font-size: 40px;
       text-align: center;
   }
-  .gallerypage-banner h4:hover{
-      color: ;
-      font-size:40px;
-      font-weight: bold;
-      font-family: fantasy;
   }
 .contact{
     padding: 15px 15px;
@@ -367,14 +344,14 @@ width:100%;
     height: 70px;
     width: 70px;
     background-color: #f5f6fa;
-    border-radius: 25px;
+    border-radius: 50px;
     text-align: center;
     margin: 10px;
     line-height: 90px;
     box-shadow: 1px 4px 2px 2px #dcdde1;
 }
 .centerdiv a i{
-    font-size: 25px;
+    font-size: 30px;
     transition: 0.3s linear;
 }
 a:hover i{
@@ -420,7 +397,7 @@ width: 100%;
 }
 .contact-form{
     float: left;
-    width: 650px;
+    width: 550px;
     margin-right:30px;
 }
 .contact-form h4, .contact-address h4{
@@ -446,11 +423,11 @@ margin-bottom: 25px;
 }
 .contact-form input[type="submit"]:hover{
     background-color: thistle;
-    color: solid black;
+    color: black;
 }
 .contact-address{
     float: right;
-    width: 320;
+    width: 320px;
 }
 .contact-address ul{
     list-style: none;
@@ -505,10 +482,10 @@ text-decoration: none;
 }
 .consultant-form input[type="submit"]:hover{
     background-color: thistle;
-    color: solid black;
+    color: black;
 }
 .consultant-text {
-     padding-top: 30pxpx;
+     padding-top: 30px;
      padding-bottom: 10px;
 }
 .consultant-text p{
@@ -523,7 +500,7 @@ text-decoration: none;
     height: 400px;
 }
 .doctorsincall p{
-    padding-top: 30pxpx;
+    padding-top: 30px;
     float: right;
     width: 450px;
     padding-bottom: 10px;
